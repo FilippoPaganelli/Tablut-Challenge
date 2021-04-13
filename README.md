@@ -1,2 +1,3 @@
 # Tablut-Challenge
-Tablut challenge solving attempt
+
+Tablut challenge solving attempt, project will be in Java...
