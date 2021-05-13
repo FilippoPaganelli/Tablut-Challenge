@@ -1,0 +1,19 @@
+apr 29, 2021 7:22:38 PM it.unibo.ai.didattica.competition.tablut.domain.GameAshtonTablut <init>
+BUONO: Players:	fake	vs	fake
+apr 29, 2021 7:22:38 PM it.unibo.ai.didattica.competition.tablut.domain.GameAshtonTablut <init>
+BUONO: Repeated moves allowed:	99	Cache:	0
+apr 29, 2021 7:22:38 PM it.unibo.ai.didattica.competition.tablut.domain.GameAshtonTablut <init>
+BUONO: Inizio partita
+apr 29, 2021 7:22:38 PM it.unibo.ai.didattica.competition.tablut.domain.GameAshtonTablut <init>
+BUONO: Stato:
+O O O B B B O O O 
+O O O O B O O O O 
+O O O O W O O O O 
+B O O O W O O O B 
+B B W W K W W B B 
+B O O O W O O O B 
+O O O O W O O O O 
+O O O O B O O O O 
+O O O B B B O O O 
+-
+B
