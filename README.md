@@ -88,6 +88,6 @@ ant server
 
 Run each player in different terminal windows:
 ```
-./Tonkatsu white timeout serverIP
-./Tonkatsu black timeout serverIP
+./Tonkatsu.sh white timeout serverIP
+./Tonkatsu.sh black timeout serverIP
 ```
