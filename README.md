@@ -1,5 +1,5 @@
 # Tablut-Challenge
-## Team Tonkatsu
+## Team 002 - Tonkatsu
 
 This is our code for the Tablut challenge, course "Fondamenti di Intelligenza Artificiale M" (A.Y. 2020-2021), University of Bologna.
 The code was modified from [Andrea Galassi's repo](https://github.com/AGalassi/TablutCompetition).
