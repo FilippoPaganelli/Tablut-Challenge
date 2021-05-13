@@ -4,6 +4,9 @@
 This is our code for the Tablut challenge, course "Fondamenti di Intelligenza Artificiale M" (A.Y. 2020-2021), University of Bologna.
 The code was modified from [Andrea Galassi's repo](https://github.com/AGalassi/TablutCompetition).
 
+### VM for the challenge
+[link]() to a Debian VM necessary for the competition.
+
 ### - The game
 Tablut is an ancient board game on a 9x9 grid. We implemented our AI agent based on [Ashton version](https://www.heroicage.org/issues/13/ashton.php) of the game. 
 
