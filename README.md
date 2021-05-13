@@ -1,3 +1,4 @@
 # Tablut-Challenge
+## Team Tonkatsu
 
-Tablut challenge solving attempt, project will be in Java...
+This is our code for the Tablut challenge
