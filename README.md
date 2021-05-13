@@ -5,7 +5,7 @@ This is our code for the Tablut challenge, course "Fondamenti di Intelligenza Ar
 The code was modified from [Andrea Galassi's repo](https://github.com/AGalassi/TablutCompetition).
 
 ### - VM for the challenge!
-[link]() to a Debian VM necessary for the competition.
+[link](https://drive.google.com/drive/folders/1q-TeF79NsoUTj0XvAmVQowjVssYT3Ipp?usp=sharing) to a Debian VM necessary for the competition.
 
 ----------
 ```
