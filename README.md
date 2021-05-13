@@ -48,7 +48,7 @@ The code was modified from and inspired by [Andrea Galassi's repo](https://githu
 Tablut is an ancient board game on a 9x9 grid. We implemented our AI agent based on [Ashton version](https://www.heroicage.org/issues/13/ashton.php) of the game. 
 
 ### - Game state
-The game state is represented as a matrix of characters where "B" is black pawn, "W" is white pawn and "K" is the king. Looking at this print
+The game state is represented as a matrix of characters where "B" is black pawn, "W" is white pawn and "K" is the king. Every time the state is updated (i.e. a move is performed on the board) it's printed as follows:
 
 ```
      [java] Current state:
