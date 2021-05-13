@@ -97,3 +97,5 @@ Run each player in different terminal windows:
 ./Tonkatsu.sh white timeout serverIP
 ./Tonkatsu.sh black timeout serverIP
 ```
+
+ (*) this version only implements the client's code, server's will be added soon. Meanwhile, you can use A
