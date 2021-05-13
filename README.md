@@ -12,6 +12,18 @@ The game state is represented as a matrix of characters where "B" is black pawn,
 
 ![image](https://user-images.githubusercontent.com/32205866/118147554-fc940400-b40f-11eb-8fc0-11af25a92571.png)
 
+```
+     [java] Current state:
+     [java] O O O B B B O O O 
+     [java] O O O O B O O O O 
+     [java] O O O O W O O O O 
+     [java] B O O O W O O O B 
+     [java] B B W W K W W B B 
+     [java] B O O O W O O O B 
+     [java] O O O O W O O O O 
+     [java] O O O O B O O O O 
+     [java] O O O B B B O O O
+```
 
 ### - Client
 This is a Java client implementing Minimax with Alpha-Beta pruning for choosing the best move each turn. At startup, it is possible to choose between "white" and "black" players also specifing a timeout for waiting the opponent's move and a server IP address.
