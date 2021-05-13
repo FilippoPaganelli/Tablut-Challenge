@@ -68,7 +68,7 @@ This is a Java client implementing Minimax with Alpha-Beta pruning for choosing 
 
 (defaults for timeout and serverIP are 60s and localhost respectively)
 
-### - Server
+### - Server (*)
 The server manages the connection between white and black players, keeping an updated state version. Once a player sends its move to the server, it forwards the state to the other player waiting for its reply. In case any player doesn't answer in due time the former loses.
 
 ### - Installation on Ubuntu/Debian
