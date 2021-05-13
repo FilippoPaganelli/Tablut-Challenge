@@ -7,6 +7,12 @@ The code was modified from [Andrea Galassi's repo](https://github.com/AGalassi/T
 ### - The game
 Tablut is an ancient board game on a 9x9 grid. We implemented our AI agent based on [Ashton version](https://www.heroicage.org/issues/13/ashton.php) of the game. 
 
+### - Game state
+The game state is represented as a matrix of characters where "B" is black pawn, "W" is white pawn and "K" is the king.
+
+![image](https://user-images.githubusercontent.com/32205866/118147554-fc940400-b40f-11eb-8fc0-11af25a92571.png)
+
+
 ### - Client
 This is a Java client implementing Minimax with Alpha-Beta pruning for choosing the best move each turn. At startup, it is possible to choose between "white" and "black" players also specifing a timeout for waiting the opponent's move and a server IP address.
 
