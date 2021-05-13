@@ -75,7 +75,7 @@ sudo apt install ant -y
 ### - Building the project
 After cloning the repo:
 ```
-cd Tablut-Challenge/Tablut
+cd Tablut-Challenge/tablut
 ant clean
 ant compile
 ```
