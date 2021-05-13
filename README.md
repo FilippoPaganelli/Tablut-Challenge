@@ -8,7 +8,7 @@ The code was modified from [Andrea Galassi's repo](https://github.com/AGalassi/T
 Tablut is an ancient board game on a 9x9 grid. We implemented our AI agent based on [Ashton version](https://www.heroicage.org/issues/13/ashton.php) of the game. 
 
 ### - Game state
-The game state is represented as a matrix of characters where "B" is black pawn, "W" is white pawn and "K" is the king.
+The game state is represented as a matrix of characters where "B" is black pawn, "W" is white pawn and "K" is the king. Looking at this print
 
 ```
      [java] Current state:
@@ -31,7 +31,8 @@ The server manages the connection between white and black players, keeping an up
 
 ### - Installation on Ubuntu/Debian
 Run these commands:
-```sudo apt update
+```
+sudo apt update
 sudo apt install openjdk-8-jdk -y
 sudo apt install ant -y
 ```
