@@ -86,7 +86,7 @@ ant clean
 ant compile
 ```
 
-### - Run
+### - Run (*)
 Run server first:
 ```
 ant server
