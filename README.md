@@ -7,7 +7,8 @@ The code was modified from [Andrea Galassi's repo](https://github.com/AGalassi/T
 ### ! - VM for the challenge
 [link]() to a Debian VM necessary for the competition.
 
-----------           
+----------
+```
 █▓▓▓▓░░
                                                                                           
                             ████                                                          
@@ -36,6 +37,7 @@ The code was modified from [Andrea Galassi's repo](https://github.com/AGalassi/T
                                 ████░░░░░░░░░░░░░░░░░░░░░░░░████                          
                                   ████████████████████████████                            
                                                                                           
+```
 ----------
 
 ### - The game
