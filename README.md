@@ -42,6 +42,7 @@ The code was modified from and inspired by [Andrea Galassi's repo](https://githu
                                 ████░░░░░░░░░░░░░░░░░░░░░░░░████                          
                                   ████████████████████████████                            
 ```
+*credits for this: textart.sh/topic/noodle*
 ----------
 
 ### - The game
