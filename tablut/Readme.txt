@@ -4,7 +4,7 @@ Team Tonkatsu!
 	launch "./Tonkatsu.sh [role] [timeout] [serverIP]"
 	role: "white" or "black" to select white/black player
 	timeout: player waiting timeout in seconds
-	serverIP: server IP
+	serverIP: server IP address
                                                                                           
   ▒▒▒▒░░                                                                                  
                                                                                           
