@@ -69,7 +69,7 @@ This is a Java client implementing Minimax with Alpha-Beta pruning for choosing 
 (defaults for timeout and serverIP are 60s and localhost respectively)
 
 ### - Server (*)
-The server manages the connection between white and black players, keeping an updated state version. Once a player sends its move to the server, it forwards the state to the other player waiting for its reply. In case any player doesn't answer in due time the former loses.
+The server manages the connection between white and black players, keeping an updated version of the state. Once a player sends its move to the server, it forwards the state to the opponent and waits for its reply. In case any of the players doesn't answer in due time, the former loses.
 
 ### - Installation on Ubuntu/Debian
 Run these commands:
@@ -79,7 +79,7 @@ sudo apt install openjdk-8-jdk -y
 sudo apt install ant -y
 ```
 ### - Building the project
-After cloning the repo:
+After cloning this repo:
 ```
 cd Tablut-Challenge/tablut
 ant clean
@@ -97,5 +97,6 @@ Run each player in different terminal windows:
 ./Tonkatsu.sh white timeout serverIP
 ./Tonkatsu.sh black timeout serverIP
 ```
+Note: our Bash script is case-insensitive about role argument ("white"/"black") but wants it as a full word.
 
  (*) *this version only implements the client's code, server's will be added soon. Meanwhile, you can use the server at [Andrea Galassi's repo](https://github.com/AGalassi/TablutCompetition).*
