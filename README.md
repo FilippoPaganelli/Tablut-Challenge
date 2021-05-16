@@ -9,6 +9,7 @@ This is our code for the Tablut competition, course "Fondamenti di Intelligenza 
 The code was modified from and inspired by [Andrea Galassi's repo](https://github.com/AGalassi/TablutCompetition).
 
 ### - VM for the challenge!
+__<UPDATED VM AT SAME LINK!>__
 [link](https://drive.google.com/drive/folders/1q-TeF79NsoUTj0XvAmVQowjVssYT3Ipp?usp=sharing) to the Debian VM necessary for the competition.
 
 ----------
