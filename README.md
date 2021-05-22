@@ -67,9 +67,9 @@ The game state is represented as a matrix of characters where "B" is black pawn,
 ```
 
 ### - Client
-This is a Java client implementing Minimax with Alpha-Beta pruning for choosing the best move each turn. At startup, it is possible to choose between "white" and "black" players also specifing a timeout for waiting the opponent's move and a server IP address.
+This is a Java client implementing __Minimax with Alpha-Beta pruning__ for choosing the best move each turn. At startup, it is possible to choose between __"white"__ and __"black"__ players, specifing a __timeout__ for waiting the opponent's move and a __server IP address__.
 
-(defaults for timeout and serverIP are 60s and localhost respectively)
+_(defaults for timeout and serverIP are 60s and localhost respectively)_
 
 ### - Server (*)
 The server manages the connection between white and black players, keeping an updated version of the state. Once a player sends its move to the server, it forwards the state to the opponent and waits for its reply. In case any of the players doesn't answer in due time, the former loses.
