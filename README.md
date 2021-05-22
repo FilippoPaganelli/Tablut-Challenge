@@ -72,7 +72,7 @@ _(this is the initial state as for the Ashton version's rules)_
 
 ### - Client
 This is a Java client implementing __Minimax with Alpha-Beta pruning__ for choosing the best move each turn. At startup, it is possible to choose between __"white"__ and __"black"__ players, specifing a __timeout__ for waiting the opponent's move and a __server IP address__.
-The actual implementation of our client is just a bash script (read its [readme.txt](/)) and a JAR file for each player.
+The actual implementation of our client is just a bash script and a JAR file for each player.
 
 _(defaults for timeout and serverIP are 60s and localhost respectively)_
 
