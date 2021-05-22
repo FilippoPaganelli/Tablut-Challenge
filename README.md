@@ -5,7 +5,7 @@
 #### [Filippo Paganelli](https://github.com/FilippoPaganelli)
 #### [Ginevra Fabrizio](https://github.com/lamebanana)
 
-This is our code for the Tablut competition, course "Fondamenti di Intelligenza Artificiale M" (AY 2020-2021), Master's Programme in Computer Engineering, University of Bologna.
+This is our code for the Tablut competition, course __Fondamenti di Intelligenza Artificiale M__ (AY 2020-2021), Master's Programme in Computer Engineering, University of Bologna.
 The code was modified from and inspired by [Andrea Galassi's repo](https://github.com/AGalassi/TablutCompetition).
 
 ### - VM for the challenge
