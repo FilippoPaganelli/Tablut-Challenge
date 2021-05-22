@@ -8,9 +8,12 @@
 This is our code for the Tablut competition, course "Fondamenti di Intelligenza Artificiale M" (AY 2020-2021), Master's Programme in Computer Engineering, University of Bologna.
 The code was modified from and inspired by [Andrea Galassi's repo](https://github.com/AGalassi/TablutCompetition).
 
-### - VM for the challenge!
-__<UPDATED VM AT SAME LINK!>__
-[link](https://drive.google.com/drive/folders/1q-TeF79NsoUTj0XvAmVQowjVssYT3Ipp?usp=sharing) to the Debian VM necessary for the competition.
+### - VM for the challenge
+For this challenge, we had to test our agent inside a Debian VM with the following technical specifications:
+- 8 GB of RAM
+- 30 GB of storage
+- 4 CPU cores maximum
+- no Internet or external drives access
 
 ----------
 ```
