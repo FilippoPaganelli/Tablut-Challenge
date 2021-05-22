@@ -51,7 +51,7 @@ __<UPDATED VM AT SAME LINK!>__
 Tablut is an ancient board game on a 9x9 grid. We implemented our AI agent based on [Ashton version](https://www.heroicage.org/issues/13/ashton.php) of the game. 
 
 ### - Game state
-The game state is represented as a matrix of characters where "B" is black pawn, "W" is white pawn and "K" is the king. Every time the state is updated (i.e. a move is performed on the board) it's printed as follows:
+Game state is represented as a matrix of characters where __"B"__ is black pawn, __"W"__ is white pawn and __"K"__ is the king. Every time the state is updated (i.e. a move is performed on the board) it's printed as follows:
 
 ```
      [java] Current state:
@@ -65,6 +65,7 @@ The game state is represented as a matrix of characters where "B" is black pawn,
      [java] O O O O B O O O O 
      [java] O O O B B B O O O
 ```
+_(this is the initial state as for the Ashton version's rules)_
 
 ### - Client
 This is a Java client implementing __Minimax with Alpha-Beta pruning__ for choosing the best move each turn. At startup, it is possible to choose between __"white"__ and __"black"__ players, specifing a __timeout__ for waiting the opponent's move and a __server IP address__.
@@ -74,20 +75,6 @@ _(defaults for timeout and serverIP are 60s and localhost respectively)_
 ### - Server (*)
 The server manages the connection between white and black players, keeping an updated version of the state. Once a player sends its move to the server, it forwards the state to the opponent and waits for its reply. In case any of the players doesn't answer in due time, the former loses.
 
-### - Installation on Ubuntu/Debian
-Run these commands:
-```
-sudo apt update
-sudo apt install openjdk-8-jdk -y
-sudo apt install ant -y
-```
-### - Building the project
-After cloning this repo:
-```
-cd Tablut-Challenge/tablut
-ant clean
-ant compile
-```
 
 ### - Run (*)
 Run server first:
