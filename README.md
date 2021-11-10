@@ -56,7 +56,7 @@ Tablut is an ancient board game on a 9x9 grid. We implemented our AI agent based
 ### - Game state
 Game state is represented as a matrix of characters where __"B"__ is black pawn, __"W"__ is white pawn and __"K"__ is the king. Every time the state is updated (i.e. a move is performed on the board) it's printed as follows:
 
-```
+```java
      [java] Current state:
      [java] O O O B B B O O O 
      [java] O O O O B O O O O 
