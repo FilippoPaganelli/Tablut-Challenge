@@ -82,12 +82,12 @@ The server manages the connection between white and black players, keeping an up
 
 ### - Run (*)
 Run server first:
-```
+``` bash
 ant server
 ```
 
 Run each player in different terminal windows:
-```
+```bash
 ./Tonkatsu.sh white timeout serverIP
 ./Tonkatsu.sh black timeout serverIP
 ```
